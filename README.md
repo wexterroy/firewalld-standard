@@ -37,3 +37,13 @@ vi /etc/firewall-standard.conf
 Если firewall уже соответствует стандарту, изменения не выполняются.
 
 Если есть отклонения, скрипт покажет проблему и спросит подтверждение перед исправлением.
+
+## Важно
+
+Файл `firewall-standard.example.conf` содержит только примерные IP.
+
+На сервере нужно создать реальный конфиг:
+
+```bash
+cp firewall-standard.example.conf /etc/firewall-standard.conf
+vi /etc/firewall-standard.conf
