@@ -1,0 +1,20 @@
+# Real configs
+firewall-standard.conf
+*.real.conf
+*.local
+*.local.conf
+
+# Backups / old versions
+*.backup*
+*.bak
+*.old
+*.broken*
+firewalld.backup.*
+
+# Logs
+*.log
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
