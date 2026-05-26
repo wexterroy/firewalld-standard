@@ -28,6 +28,14 @@ chmod 600 /etc/firewall-standard.conf
 vi /etc/firewall-standard.conf
 ```
 
+## Проверка
+
+```bash
+bash -n /opt/setup-firewall-standard.sh
+bash -n /opt/setup-firewall-standard-core.sh
+bash -n /etc/firewall-standard.conf
+```
+
 ## Запуск
 
 ```bash
@@ -47,3 +55,8 @@ vi /etc/firewall-standard.conf
 ```bash
 cp firewall-standard.example.conf /etc/firewall-standard.conf
 vi /etc/firewall-standard.conf
+```
+
+В `/etc/firewall-standard.conf` указываются реальные IP и порты.
+
+Этот файл нельзя публиковать в GitHub.
